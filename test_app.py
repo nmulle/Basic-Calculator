@@ -1,5 +1,13 @@
-# Test cases for the application
+from app import add
 
-def test_dummy():
-    assert True
+class TestAdd:
+    # int + int
+    def test_int_int(self):
+        assert add(1, 2) == 3
+
+
+    # float + float
+    # float + int
+    # int + float
+    pass
 
