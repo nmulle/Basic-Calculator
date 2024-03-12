@@ -18,3 +18,9 @@ def test_subtract(calculator):
     assert calculator.subtract(-5, -3) == -2
     assert calculator.subtract(7, 2) == 5
     assert calculator.subtract(3, -6) == 9
+
+def test_multiply(calculator):
+    assert calculator.multiply(0, 0) == 0
+    assert calculator.multiply(-4, -7) == 28
+    assert calculator.multiply(3, 12) == 36
+    assert calculator.multiply(5, -6) == -30

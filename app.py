@@ -5,13 +5,11 @@ class BasicCalculator:
     def add(self, a, b):
         return a + b
 
-    # TODO implement subtraction
     def subtract(self, a, b):
         return a - b
 
-    # TODO implement multiplication
     def multiply(self, a, b):
-        pass
+        return a * b
 
     # TODO implement division without checking for div by 0
     def divide(self, a, b):
