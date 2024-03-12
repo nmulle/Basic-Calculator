@@ -1,4 +1,5 @@
 from app import BasicCalculator
+import pytest
 
 
 # Get a fresh calculator instance
