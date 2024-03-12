@@ -29,7 +29,7 @@ def test_divide(calculator):
     assert calculator.divide(0, 3) == 0
     assert calculator.divide(-4, 2) == -2
     assert calculator.divide(12, 3) == 4
-    assert calculator.divide(10, -2) == 5
+    assert calculator.divide(10, -2) == -5
 
 def test_divide_by_zero(calculator):
     with pytest.raises(ValueError):
