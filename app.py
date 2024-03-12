@@ -7,7 +7,7 @@ class BasicCalculator:
 
     # TODO implement subtraction
     def subtract(self, a, b):
-        pass
+        return a - b
 
     # TODO implement multiplication
     def multiply(self, a, b):
