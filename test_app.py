@@ -1,13 +1,13 @@
-from app import add
-
-class TestAdd:
-    # int + int
-    def test_int_int(self):
-        assert add(1, 2) == 3
+from app import BasicCalculator
 
 
-    # float + float
-    # float + int
-    # int + float
-    pass
+# Get a fresh calculator instance
+@pytest.fixture
+def calculator():
+    return BasicCalculator()
 
+def test_add(calculator):
+    assert calculator.add(0, 0) == 0
+    assert calculator.add(-5, -3) == -8
+    assert calculator.add(7, 2) == 9
+    assert calculator.add(3, -6) == -3
