@@ -2,19 +2,19 @@ class BasicCalculator:
     def __init__(self):
         pass
 
-    def add(a, b):
+    def add(self, a, b):
         return a + b
 
     # TODO implement subtraction
-    def subtract(a, b):
+    def subtract(self, a, b):
         pass
 
     # TODO implement multiplication
-    def multiply(a, b):
+    def multiply(self, a, b):
         pass
 
     # TODO implement division without checking for div by 0
-    def divide(a, b):
+    def divide(self, a, b):
         pass
 
 
