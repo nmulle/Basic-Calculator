@@ -11,9 +11,9 @@ class BasicCalculator:
     def multiply(self, a, b):
         return a * b
 
-    # TODO implement division without checking for div by 0
+    # division without checking for div by 0
     def divide(self, a, b):
-        pass
+        return a / b
 
 
 def main():
